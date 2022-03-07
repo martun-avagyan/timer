@@ -1,15 +1,15 @@
-const Buttons = ({ handlePlay, isPlay, handleStop }) => {
+const Buttons = ({ handlePlay, isPlay, handleStop, handleReset }) => {
   //props.handleplay
+
   return (
     <>
-      {}
       {isPlay ? (
-        <button onClick={handleStop}>Stop</button>
+        <button onClick={handleStop}>Pause</button>
       ) : (
-        <button onClick={handlePlay}>Play</button>
+        <button onClick={handlePlay}>Start</button>
       )}
 
-      <button>Reset</button>
+      <button onClick={handleReset}>Reset</button>
     </>
   );
 };
