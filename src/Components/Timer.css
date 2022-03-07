@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.timer-input__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-input__wrapper input {
+  color: chartreuse;
+}
